@@ -1,0 +1,26 @@
+{
+    "name": "mgargano/simplehtmldom",
+    "description": "Composer package that gives you access to and (unlike all the others at this time) autoloads S.C. Chen's PHP Simple HTML DOM Parser Library",
+    "keywords": ["html", "dom", "simple"],
+    "homepage" : "http://simplehtmldom.sourceforge.net/",
+    "type": "library",
+    "license": "The MIT License",
+    "authors": [
+        {
+            "name": "S.C. Chen",
+            "email": "me578022@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SimpleHtmlDom": "src/"
+        },
+        "files": [
+            "src/simple_html_dom.php"
+        ]
+    }
+    
+}
